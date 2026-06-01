@@ -1,0 +1,22 @@
+# Secure Login System - Python Dependencies
+# ============================================================================
+# Install with: pip install -r requirements.txt
+# ============================================================================
+
+# Flask Framework
+Flask==3.0.0
+
+# Password Hashing (part of Werkzeug, but explicitly listed for clarity)
+Werkzeug==3.0.0
+
+# Optional: For production deployment
+# python-dotenv==1.0.0  # For environment variables
+# gunicorn==21.2.0      # For production server
+
+# Optional: For email functionality (if implementing real email)
+# Flask-Mail==0.9.1     # For sending emails
+# python-dotenv==1.0.0  # For environment variables
+
+# Optional: For additional security
+# Flask-Talisman==1.1.0  # For security headers
+# Flask-Limiter==3.5.0   # For rate limiting
